@@ -11,12 +11,12 @@
 ;   14-Apr-2011: Started, Guangtun Zhu, NYU
 ;-
 
-function wise_path, lowz=lowz, atlas=atlas
+function wisenyu_path, lowz=lowz, dimage=dimage
 
    path = '/mount/hercules5/sdss/atlas/v0/wise-cat/'
 
    if (keyword_set(lowz)) then path = '/global/data/lowz-sdss/'
-;  if (keyword_set(atlas)) then path = '/global/data/lowz-sdss'
+   if (keyword_set(dimage)) then path = getenv('DIMAGE_DIR')+'/data/atlas/'
 
    return, path
 end
