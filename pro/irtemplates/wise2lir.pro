@@ -166,13 +166,13 @@ function wise2lir, redshift, maggies, ivarmaggies, h100=h100, $
 
           modelindx1 = x2[fitplace] 
           model_indx[igal] = modelindx1 ; fractional index number
-          lir[igal] = interpolate(model.lir,modelindx1)
+          lir[igal] = 10.^(interpolate(alog10(model.lir),modelindx1))
 
           minchi2 = minchi2-chi2floor
           chi2[igal] = minchi2
           
 ; debugging QAplots
-          if keyword_set(debug) then begin
+          if (keyword_set(debug) gt 0) and (round(modelindx1) eq 49) then begin
              splog, minchi2, modelindx1, lir[igal]
 
              djs_plot, x2, chi2fit, psym=-6, sym=0.5, xsty=3, ysty=3, /ylog, $

@@ -57,7 +57,7 @@ end
  
 function wisenyu_read_02dale
     
-    path = getenv('CATALOGS_DIR')+'/02dale/'
+    path = getenv('WISENYU_DIR')+'/data/'
     if (file_test(path,/dir) eq 0) then begin
        splog, 'Data path '+path+' does not exist!'
        return, -1
@@ -84,10 +84,11 @@ function wisenyu_read_02dale
 ; oversample the models, otherwise the filter convolution is fubar     
     nsamp = 10
     owave = lambda*1D4 ; [A]
-    wave = range(min(owave),max(owave),npix*nsamp,/log) ; [A]
+    wave = wisenyu_range(min(owave),max(owave),npix*nsamp,/log) ; [A]
     
     data = {$
       lir:  dblarr(nmodel),$
+      l22:  dblarr(nmodel),$
       l24:  dblarr(nmodel),$
       l22:  dblarr(nmodel),$
       wave:           wave,$
