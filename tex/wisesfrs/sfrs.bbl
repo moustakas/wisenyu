@@ -1,0 +1,10 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Wright} {et~al.}(2010){Wright}, {Eisenhardt}, {Mainzer}, {Ressler},
+  {Cutri}, {Jarrett}, {Kirkpatrick}, {Padgett}, {et~al.}}]{wright10a}
+{Wright}, E.~L., {Eisenhardt}, P.~R.~M., {Mainzer}, A.~K., {Ressler}, M.~E.,
+  {Cutri}, R.~M., {Jarrett}, T., {Kirkpatrick}, J.~D., {Padgett}, D., {et~al.}
+  2010, \aj, 140, 1868
+
+\end{thebibliography}

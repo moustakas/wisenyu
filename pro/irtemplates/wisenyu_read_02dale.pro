@@ -89,6 +89,7 @@ function wisenyu_read_02dale
     data = {$
       lir:  dblarr(nmodel),$
       l24:  dblarr(nmodel),$
+      l22:  dblarr(nmodel),$
       wave:           wave,$
       flux: dblarr(npix*nsamp,nmodel)}
     
