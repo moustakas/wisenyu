@@ -1,8 +1,8 @@
 \def\imtxt#1{{\bf {\textcolor{red}{#1}}}}
-
-\newcommand{\zbootes}{zBo\"{o}tes}
-\newcommand{\pegase}{{\sc p\'{e}gase.2}}
 \newcommand{\etal}{et~al.}
+
+\newcommand{\nuv}{\ensuremath{{\rm NUV}}}
+\newcommand{\fuv}{\ensuremath{{\rm FUV}}}
 
 \newcommand{\sdssr}{\mbox{\ensuremath{^{0.1}r}}}
 \newcommand{\gr}{\mbox{\ensuremath{^{0.1}(g-r)}}}
@@ -14,15 +14,7 @@
 \newcommand{\mass}{\ensuremath{\mathcal{M}}}
 \newcommand{\mstar}{\ensuremath{\mathcal{M}^{\ast}}}
 \newcommand{\msun}{\ensuremath{\mathcal{M}_{\sun}}}
-\newcommand{\phistar}{\ensuremath{\Phi^{\ast}}}
 
 \newcommand{\snr}{\ensuremath{\mathrm{S/N}}}
 \newcommand{\sfr}{\ensuremath{\psi}}
 \newcommand{\sfrunits}{\ensuremath{\mathcal{M}_{\sun}~\textrm{yr}^{-1}}}
-
-\newcommand{\tburst}{\ensuremath{t_{b}}}
-\newcommand{\dtburst}{\ensuremath{\Delta t_{b}}}
-\newcommand{\fburst}{\ensuremath{\mathcal{F}_{b}}}
-\newcommand{\aburst}{\ensuremath{\mathcal{A}_{b}}}
-\newcommand{\mburst}{\ensuremath{\mathcal{M}_{b}}}
-

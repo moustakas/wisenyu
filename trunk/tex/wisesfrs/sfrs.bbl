@@ -1,5 +1,13 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{3}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Cardelli} {et~al.}(1989){Cardelli}, {Clayton}, \&
+  {Mathis}}]{cardelli89a}
+{Cardelli}, J.~A., {Clayton}, G.~C., \& {Mathis}, J.~S. 1989, \apj, 345, 245
+
+\bibitem[{{Schlegel} {et~al.}(1998){Schlegel}, {Finkbeiner}, \&
+  {Davis}}]{schlegel98a}
+{Schlegel}, D.~J., {Finkbeiner}, D.~P., \& {Davis}, M. 1998, \apj, 500, 525
 
 \bibitem[{{Wright} {et~al.}(2010){Wright}, {Eisenhardt}, {Mainzer}, {Ressler},
   {Cutri}, {Jarrett}, {Kirkpatrick}, {Padgett}, {et~al.}}]{wright10a}
