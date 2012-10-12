@@ -1,5 +1,5 @@
 function wisesfrs_do_kcorrect, in_redshift, in_maggies, in_ivarmaggies, $
-  filterlist=filterlist
+  filterlist=filterlist, silent=silent
 ; jm11apr27ucsd - compute K-corrections
 
     h100 = 0.7
@@ -36,11 +36,11 @@ function wisesfrs_do_kcorrect, in_redshift, in_maggies, in_ivarmaggies, $
 ; compute k-corrections
     out_filterlist = [galex_filterlist(),sdss_filterlist(),twomass_filterlist()]
     
-    splog, 'Computing K-corrections'
+    if (keyword_set(silent) eq 0) then splog, 'Computing K-corrections'
     kcorrect = im_kcorrect(in_redshift,in_maggies,in_ivarmaggies,$
-      filterlist,out_filterlist,band_shift=0.0,chi2=chi2,mass=mass,$
+      filterlist,out_filterlist,band_shift=0.1,chi2=chi2,mass=mass,$
       coeffs=coeffs,bestmaggies=bestmaggies,absmag=absmag,$
-      ivarabsmag=absmag_ivar,uvflux=uvflux,/silent,vname=vname,h100=h100) ; AB, band_shift=0.0
+      ivarabsmag=absmag_ivar,uvflux=uvflux,/silent,vname=vname,h100=h100) ; AB, band_shift=0.1
 
     kcorr.k_bestmaggies = bestmaggies
     kcorr.k_mass = alog10(mass) ; h=0.7, Chabrier

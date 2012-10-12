@@ -1,4 +1,4 @@
-This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=latex 2008.3.30)  29 APR 2011 05:42
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=latex 2008.3.30)  3 MAY 2011 11:51
 entering extended mode
 **sfrs
 (./sfrs.tex
@@ -212,14 +212,26 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 25.
 
 (/sw/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2002/01/19 v2.2g AMS font definitions
-) (./sfrs.bbl) [1] (./sfrs.aux) ) 
-Here is how much of TeX's memory you used:
- 2796 strings out of 94500
- 33381 string characters out of 1176073
- 92218 words of memory out of 1500000
- 5951 multiletter control sequences out of 10000+50000
- 11725 words of font info for 48 fonts, out of 1200000 for 2000
- 580 hyphenation exceptions out of 8191
- 35i,6n,28p,220b,247s stack positions out of 5000i,500n,6000p,200000b,5000s
+)
+File: nuvmr_mass.eps Graphic file (type eps)
+ <nuvmr_mass.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+$[]$
+ []
 
-Output written on sfrs.dvi (1 page, 2300 bytes).
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+
+ []
+
+(./sfrs.bbl) [1] (./sfrs.aux) ) 
+Here is how much of TeX's memory you used:
+ 2813 strings out of 94500
+ 33613 string characters out of 1176073
+ 99285 words of memory out of 1500000
+ 5963 multiletter control sequences out of 10000+50000
+ 12239 words of font info for 51 fonts, out of 1200000 for 2000
+ 580 hyphenation exceptions out of 8191
+ 35i,6n,28p,220b,286s stack positions out of 5000i,500n,6000p,200000b,5000s
+
+Output written on sfrs.dvi (1 page, 5484 bytes).
